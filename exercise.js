@@ -45,208 +45,172 @@ exercise.roman = function(time){
     
 };
 
-exercise.binary = function(time, col){
-    exercise.binary = function(time, col){
-        var hour = time.getHours();
-        var minutes = time.getMinutes();
-        var seconds = time.getSeconds();
-        switch(hour)
-        {case 0: 
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 1:
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break; 
-        case 2: 
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break; 
-        case 3: 
-            document.getElementbyId('box5_1').
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 4: 
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "red";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break; 
-        case 5: 
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "red";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;     
-        case 6: 
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "red";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;   
-        case 7: 
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "red";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 8: 
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "red";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 9: 
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "red";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 10: 
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "red";
-            break;
-        case 11: 
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "red";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 12: 
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "red";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 13: 
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "red";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 14:
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "red";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "red";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 15:
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "red";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "red";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 16:
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "red";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "red";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 17:
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "red";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "red";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 18:
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "red";
-            document.getElementbyId('box6_1').style.color = "red";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 19:
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "red";  
-            document.getElementbyId('box6_1').style.color = "red";
-            document.getElementbyId('box6_2').style.color = "grey";
-            break;
-        case 20:
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "red";
-            break;
-        case 21:
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "grey";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "red";
-            break;
-        case 22:
-            document.getElementbyId('box5_1').style.color = "grey";
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "red";
-            break;
-        case 23:
-            document.getElementbyId('box5_1').style.color = "red";
-            document.getElementbyId('box5_2').style.color = "red";
-            document.getElementbyId('box5_3').style.color = "grey";
-            document.getElementbyId('box5_4').style.color = "grey";
-            document.getElementbyId('box6_1').style.color = "grey";
-            document.getElementbyId('box6_2').style.color = "red";
-            break;    
-        }
-        switch(minutes){
-            case 0:
-         }
+exercise.binary = function(time){
+    document.getElementById('box6_1').style.background = "grey";
+    document.getElementById('box6_2').style.background = "grey";
+    document.getElementById('box5_1').style.background = "grey";
+    document.getElementById('box5_2').style.background = "grey";
+    document.getElementById('box5_3').style.background = "grey";
+    document.getElementById('box5_4').style.background = "grey";
+    document.getElementById('box4_1').style.background = "grey";
+    document.getElementById('box4_2').style.background = "grey";
+    document.getElementById('box4_3').style.background = "grey";
+    document.getElementById('box3_1').style.background = "grey";
+    document.getElementById('box3_2').style.background = "grey";
+    document.getElementById('box3_3').style.background = "grey";
+    document.getElementById('box3_4').style.background = "grey";
+    document.getElementById('box2_1').style.background = "grey";
+    document.getElementById('box2_2').style.background = "grey";
+    document.getElementById('box2_3').style.background = "grey";
+    document.getElementById('box1_1').style.background = "grey";
+    document.getElementById('box1_2').style.background = "grey";
+    document.getElementById('box1_3').style.background = "grey";
+    document.getElementById('box1_4').style.background = "grey";
+
     
-    };
+    //----------------------------------------------------------
+    //  YOUR CODE
+    //    Return an object with
+    //    the binary clock values 
+    //    for the given column
+    //
+    //  For example, for time 05:13:47 PM, and column hour_col2
+    //    var binary = { 
+    //        position8 : 'off', 
+    //        position4 : 'on', 
+    //        position2 : 'on', 
+    //        position1 : 'on', 
+    //    }; 
+    // 
+    //----------------------------------------------------------
+
+    var hour = time.getHours();
+    var minutes = time.getMinutes();
+    var seconds = time.getSeconds();
+    var pos1val;
+    var pos2val;
+    var pos4val;
+    var pos8val;
+
+    //Col 1
+    var hr1stDigit = (Math.floor(hour / 10)) % 10;
+    var hrcol1bin = parseInt(hr1stDigit, 10).toString(2);
+       
+    var count0col1 = 4 - hrcol1bin.length;
+     //seccol2bin = seccol2bin.toString();
+       for (i = 0; i < count0col1; i++) {
+            hrcol1bin = '0'+hrcol1bin;
+        }
+       pos1val= hrcol1bin[3]
+       pos2val= hrcol1bin[2]
+       pos4val= hrcol1bin[1]
+       pos8val = hrcol1bin[0]
+       if (pos1val == 1){document.getElementById('box6_1').style.background = "red"};
+       if (pos2val == 1){document.getElementById('box6_2').style.background = "red"};
+       //if (pos4val == 1){document.getElementById('box5_2').style.background = "red"};
+       //if (pos8val == 1){document.getElementById('box5_2').style.background = "red"};
+
+    //Col 2
+    var hr2ndDigit = hour % 10;
+    var hrcol2bin = parseInt(hr2ndDigit, 10).toString(2);
+       
+    var count0col2 = 4 - hrcol2bin.length;
+    //hrcol2bin = hrcol2bin.toString();
+       for (i = 0; i < count0col2; i++) {
+            hrcol2bin = '0'+hrcol2bin;
+        }
+       pos1val= hrcol2bin[3]
+       pos2val= hrcol2bin[2]
+       pos4val= hrcol2bin[1]
+       pos8val = hrcol2bin[0]
+       if (pos1val == 1){document.getElementById('box5_1').style.background = "red"};
+       if (pos2val == 1){document.getElementById('box5_2').style.background = "red"};
+       if (pos4val == 1){document.getElementById('box5_3').style.background = "red"};
+       if (pos8val == 1){document.getElementById('box5_4').style.background = "red"};
+    
+   //Col 3
+    var min1stDigit = (Math.floor(minutes / 10)) % 10;
+    var mincol1bin = parseInt(min1stDigit, 10).toString(2);
+       
+    var count0col3 = 4 - mincol1bin.length;
+    //mincol1bin = mincol1bin.toString();
+       for (i = 0; i < count0col3; i++) {
+            mincol1bin = '0'+mincol1bin;
+        }
+       pos1val= mincol1bin[3]
+       pos2val= mincol1bin[2]
+       pos4val= mincol1bin[1]
+       pos8val = mincol1bin[0]
+       if (pos1val == 1){document.getElementById('box4_1').style.background = "red"};
+       if (pos2val == 1){document.getElementById('box4_2').style.background = "red"};
+       if (pos4val == 1){document.getElementById('box4_3').style.background = "red"};
+       //if (pos8val == 1){document.getElementById('box4_4').style.background = "red"};
+
+    // Col 4
+    var min2ndDigit = minutes % 10;
+    var mincol2bin = parseInt(min2ndDigit, 10).toString(2);
+       
+    var count0col4 = 4 - mincol2bin.length;
+    //mincol2bin = mincol2bin.toString();
+       for (i = 0; i < count0col4; i++) {
+            mincol2bin = '0'+mincol2bin;
+        }
+       pos1val= mincol2bin[3]
+       pos2val= mincol2bin[2]
+       pos4val= mincol2bin[1]
+       pos8val = mincol2bin[0]
+       if (pos1val == 1){document.getElementById('box3_1').style.background = "red"};
+       if (pos2val == 1){document.getElementById('box3_2').style.background = "red"};
+       if (pos4val == 1){document.getElementById('box3_3').style.background = "red"};
+       if (pos8val == 1){document.getElementById('box3_4').style.background = "red"};
+
+
+    //COl 5
+    var sec1stDigit = (Math.floor(seconds / 10)) % 10;
+    var seccol1bin = parseInt(sec1stDigit, 10).toString(2);
+       
+    var count0col5 = 4 - seccol1bin.length;
+    //seccol1bin = seccol1bin.toString();
+    for (i = 0; i < count0col5; i++) {
+            seccol1bin = '0'+seccol1bin;
+        }
+       pos1val= seccol1bin[3]
+       pos2val= seccol1bin[2]
+       pos4val= seccol1bin[1]
+       pos8val = seccol1bin[0]
+       if (pos1val == 1){document.getElementById('box2_1').style.background = "red"};
+       if (pos2val == 1){document.getElementById('box2_2').style.background = "red"};
+       if (pos4val == 1){document.getElementById('box2_3').style.background = "red"};
+       //if (pos8val == 1){document.getElementById('box5_2').style.background = "red"};
+
+
+    //Last Column
+    var sec2ndDigit = seconds % 10;
+    var seccol2bin = parseInt(sec2ndDigit, 10).toString(2);
+
+    var count0col6 = 4 - seccol2bin.length;
+    console.log("count " + count0col6)
+     seccol2bin = seccol2bin.toString();
+       for (i = 0; i < count0col6; i++) {
+            seccol2bin = '0'+seccol2bin;
+        }
+       pos1val= seccol2bin[3]
+       pos2val= seccol2bin[2]
+       pos4val= seccol2bin[1]
+       pos8val = seccol2bin[0]
+       
+       if (pos1val == '1'){document.getElementById('box1_1').style.background = "red"};
+       if (pos2val == '1'){document.getElementById('box1_2').style.background = "red"};
+       if (pos4val == '1'){document.getElementById('box1_3').style.background = "red"};
+       if (pos8val == '1'){document.getElementById('box1_4').style.background = "red"};
+       console.log(document.getElementById('box1_4').style.color)
+
+
+      
+
+
+
+    
+    
+
 };
